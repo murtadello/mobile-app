@@ -1,20 +1,31 @@
+
+<div class="header">
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Wörterbuch
     </ion-title>
   </ion-toolbar>
 </ion-header>
+</div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div class="container">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>Card Title</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Welkommen bei Wörterbuch. Hier lern man die Wörter von A1 - C1. Wenn Sie ihre Wörtschazt verbessern wollen, sind Sie richtig hier.
+    </ion-card-content>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button expand="full" color="danger">A1</ion-button>
+  <ion-button color="primary" expand="full">A2</ion-button>
+  <ion-button color="secondary" expand ="full">B1</ion-button>
+  <ion-button color="success" expand="full">B2</ion-button>
+  <ion-button color="dark" expand="full">C1</ion-button>
+  <ion-button expand="full">C2</ion-button>
+</div>
 </ion-content>

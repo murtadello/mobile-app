@@ -6,6 +6,10 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
+  },
+  {
+    path:'a1',
+    component:HomePage
   }
 ];
 

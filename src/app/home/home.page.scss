@@ -25,3 +25,15 @@
 #container a {
   text-decoration: none;
 }
+
+ion-card{
+  background-color: white;
+  color: black;
+}
+ion-card-subtitle{
+  color: black;
+  font-size: 25px;
+}
+ion-content{
+  --background: gray;
+}
